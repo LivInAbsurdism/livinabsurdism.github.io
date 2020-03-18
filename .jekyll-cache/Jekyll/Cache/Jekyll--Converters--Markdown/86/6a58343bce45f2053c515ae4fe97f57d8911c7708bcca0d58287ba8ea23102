@@ -1,0 +1,60 @@
+I"7<p>Em um post passado, mostrando como fazer a <a href="/clyell/blog/archlinux-lvm-luks/">instalação do Arch Linux [0]</a>, utilizei do LVM para gerenciar os discos. Lá falei um pouco mais da teoria por trás dele e tal. Aqui vou me ater mesmo a repassar o passo a passo utilizado para isso.</p>
+
+<p>Uma questão a ser dita é que o LVM nos dá a possibilidade de poder redimensionar nossas partições sem desligar o sistema. Acontece que a depender de sua aplicação, mesmo que não dê um shutdown no sistema, as consequências podem ser as mesmas. Explico: para aumentar o tamanho da partição é moleza, dá para fazer sem mais nem menos. Agora para diminuir o volume de uma partição tem de desmontá-la e tudo mais. E isso para alguns pode ser um grande problema.</p>
+
+<p>Mas enfim, vamos lá…</p>
+
+<h2 id="reduzir-o-tamanho">Reduzir o tamanho</h2>
+
+<p>Digamos que uma partição sua está sendo menos utilizada que outra e que você quer tirar um pouco de espaço dessa determinada partição e colocar na outra. Pois bem, não esqueça de adaptar os endereços aqui para seu cenário, uma breve explicação:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">/particao</code>: endereço no qual a partição que você está usando está montada</li>
+  <li><code class="highlighter-rouge">VolumeGroup</code>: acredito que o nome já é autoexplicativo</li>
+  <li><code class="highlighter-rouge">LogicalVolume01</code> e <code class="highlighter-rouge">LogicalVolume02</code>: os nomes também já se explicam, mas a numeração se refere a que o 01 é o volume lógico que irá diminuir de tamanho, enquanto o 02 o que irá aumentar</li>
+  <li><code class="highlighter-rouge">XXG</code>: nova quantidade de gigas da partição que teve espaço diminuído</li>
+</ul>
+
+<p>Primeiro, desmonte a partição:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># umount /particao
+</code></pre></div></div>
+
+<p>Então, repare o sistema de arquivos:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># fsck -f /dev/VolumeGroup/LogicalVolume01
+</code></pre></div></div>
+
+<p>Agora de fato redimensione:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># resize2fs /dev/VolumeGroup/LogicalVolume01 XXG
+</code></pre></div></div>
+
+<p>E então, reduza o tamanho do volume lógico para seu novo espaço:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># lvreduce -L XXG /dev/VolumeGroup/LogicalVolume01
+</code></pre></div></div>
+
+<p>Agora monte sua partição numa boa:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># mount /particao
+</code></pre></div></div>
+
+<h2 id="aumentar-tamanho">Aumentar tamanho</h2>
+
+<p>Depois que passei por alguns apertos passei a deixar alguns gigas “sobrando” quando ia pensar no esquemas de partições, justamente por essa facilidade da adição em relação à redução. Pois bem, tendo em vista que já se tem o espaço sobrando, como o procedimento acima mostra como fazer, basta seguir:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># lvextend -L +10G /dev/mapper/main-root
+# resize2fs /dev/mapper/main-root
+</code></pre></div></div>
+
+<p>E pronto. Agora cheque o tamanho dos discos com <code class="highlighter-rouge">df -h</code> e seja feliz! :)</p>
+
+<p>Até!</p>
+
+<h2 id="links">Links</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[0]: http://localhost:4000/clyell/blog/archlinux-lvm-luks/
+</code></pre></div></div>
+
+:ET
