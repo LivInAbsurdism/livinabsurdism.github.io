@@ -1,10 +1,9 @@
 # Site settings
 title: "Liv's Fungi Forest"
 bye_message: "Thx!"
-baseurl: ""
+baseurl: "/home/"
 url: "http://livinabsurdism.github.io"
 disqus: gjuniioor
-background-image: url('/images/dev_website_1.jpg')
 
 # Header settings
 nick: "livinabsurdism"
@@ -17,7 +16,7 @@ source_code:
 blog:
     server: "wordpress.com"
     nick: "gjuniioor"
-fingerprint_key: "5E12 9ABC C2A9 564B C048  2DF9 D327 0D10 BC71 CF75"
+fingerprint_key: "ENTER GPG KEY HERE"
 
 # Build settings
 markdown: kramdown

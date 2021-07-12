@@ -9,7 +9,7 @@ body {
     color: rgba(255,255,255,0.6);
     text-align: center;
     //width: 800px;
-    background-image: url("/images/dev_website_1.jpg");
+    background-image: url("images/dev_website_1.jpg");
 }
 
 h1 {
@@ -228,5 +228,5 @@ margin: unset;
 ---
 
 header {
-  background-image: url('/images/dev_website_1.jpg');
+  background-image: url('./images/dev_website_1.jpg');
 } */
