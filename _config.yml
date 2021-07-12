@@ -1,18 +1,19 @@
 # Site settings
-title: "gjuniioor"
+title: "Liv's Fungi Forest"
 bye_message: "Thx!"
-baseurl: "/clyell/"
-url: "https://gjuniioor.github.io"
+baseurl: ""
+url: "http://livinabsurdism.github.io"
 disqus: gjuniioor
+background-image: url('/images/dev_website_1.jpg')
 
 # Header settings
-nick: "gjuniioor"
+nick: "livinabsurdism"
 mail:
     domain: "protonmail"
     ext: "ch"
 source_code:
     server: "github.com"
-    nick: "gjuniioor"
+    nick: "livinabsurdism"
 blog:
     server: "wordpress.com"
     nick: "gjuniioor"
