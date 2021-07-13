@@ -32,7 +32,7 @@ It's just one more [jekyll](https://github.com/jekyll/jekyll) theme. Maybe it's 
 ~~~ yml
 # Site settings
 title: "gjuniioor"
-bye_message: "Thx!"
+bye_message: "Thx for looking!"
 baseurl: "/clyell/"
 url: "https://gjuniioor.github.io"
 disqus: gjuniioor

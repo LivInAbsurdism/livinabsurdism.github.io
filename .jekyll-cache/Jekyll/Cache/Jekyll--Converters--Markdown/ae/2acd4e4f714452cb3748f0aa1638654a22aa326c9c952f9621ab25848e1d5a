@@ -1,20 +1,14 @@
-I"7<h1 id="clyell">Clyell</h1>
+I"<h1 id="hi-im-liv">Hi, I’m Liv</h1>
 
-<p><a href="https://gjuniioor.github.io/clyell">https://gjuniioor.github.io/clyell</a></p>
+<p><strong>I’m a backend engineer who loves plants, automation, and learning.</strong></p>
 
-<h3 id="about">About</h3>
-
-<p>It’s just one more <a href="https://github.com/jekyll/jekyll">jekyll</a> theme. Maybe it’s has some appearance like a linux console. :)</p>
-
-<p><a href="http://getbootstrap.com/">Bootstrap</a> was added to turn responsible. Thanks, <a href="https://github.com/magnunleno">@magnunleno</a>.</p>
-
-<h3 id="features">Features</h3>
+<h3 id="what-im-currently-learning">What I’m Currently Learning</h3>
 
 <ul class="task-list">
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Google analytics</li>
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Disqus</li>
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Responsible</li>
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Highlights for code</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Java</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Android Development</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Neural Networks</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />R</li>
 </ul>
 
 <h3 id="characteristics">Characteristics</h3>
