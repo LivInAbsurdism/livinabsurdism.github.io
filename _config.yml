@@ -7,15 +7,9 @@ disqus: gjuniioor
 
 # Header settings
 nick: "livinabsurdism"
-mail:
-    domain: "protonmail"
-    ext: "ch"
 source_code:
     server: "github.com"
     nick: "livinabsurdism"
-blog:
-    server: "wordpress.com"
-    nick: "gjuniioor"
 fingerprint_key: "ENTER GPG KEY HERE"
 
 # Build settings
