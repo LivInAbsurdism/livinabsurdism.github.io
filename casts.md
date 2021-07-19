@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "*Casts"
-permalink: /casts/
+title: "*Media"
+permalink: /media/
 ---
 
 # PodCasts
@@ -32,4 +32,3 @@ permalink: /casts/
 # WebCasts
 
 * [Security Cast](https://youtube.com/securitycast)
-
