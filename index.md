@@ -1,8 +1,7 @@
 ---
 layout: content
+title: Hi, I'm Liv.
 ---
-
-## Hi, I'm Liv.
 
 **I'm a backend engineer who loves plants, automation, and learning.**
 

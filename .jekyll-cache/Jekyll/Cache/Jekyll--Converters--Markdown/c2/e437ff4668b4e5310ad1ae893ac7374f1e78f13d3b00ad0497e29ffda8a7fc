@@ -1,0 +1,26 @@
+I"�<h2 id="hi-im-liv">Hi, I’m Liv.</h2>
+<hr />
+<p>title: “Hi, I’m Liv.”
+—</p>
+
+<p><strong>I’m a backend engineer who loves plants, automation, and learning.</strong></p>
+
+<p>I currently live in the San Juan mountains with my partner, our two dogs, and 115 plants.</p>
+
+<h3 id="what-im-currently-learning">What I’m Currently Learning</h3>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Java</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Android Development</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Neural Networks</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />R</li>
+</ul>
+
+<h3 id="my-current-projects">My Current Projects</h3>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Simple JS neural network</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Automation for my hydroponics garden</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Hardware for the same garden</li>
+</ul>
+:ET
