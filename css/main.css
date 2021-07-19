@@ -12,7 +12,8 @@ body {
     color: rgba(255,255,255);
     text-align: center;
     //width: 800px;
-    background-image: url("images/dev_website_1.jpg");
+    background-image: url("images/dev_website_2.png");
+    opacity: 0.75;
 }
 
 h1 {
@@ -209,7 +210,7 @@ table a {
     color: rgba(255,255,255,0.3);
 }
 .reserved {
-    color: rgba(220,220,0,0.4);
+    color: rgba(220,220,0,1);
 }
 .string {
     color: rgba(173, 255, 158));

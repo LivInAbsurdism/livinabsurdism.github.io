@@ -1,4 +1,4 @@
-I"�<header>
+I"y<header>
     <h1>Category List</h1>
 </header>
 
@@ -6,8 +6,15 @@
 
      
         <li>
-            <a href="#archlinux">
-                archlinux
+            <a href="#houseplants">
+                houseplants
+            </a>
+            <span>(1)</span>
+        </li>
+     
+        <li>
+            <a href="#hydroponics">
+                hydroponics
             </a>
             <span>(1)</span>
         </li>
@@ -16,7 +23,7 @@
             <a href="#linux">
                 linux
             </a>
-            <span>(2)</span>
+            <span>(1)</span>
         </li>
      
         <li>
@@ -27,15 +34,15 @@
         </li>
      
         <li>
-            <a href="#screenshot">
-                screenshot
+            <a href="#monstera">
+                monstera
             </a>
             <span>(1)</span>
         </li>
      
         <li>
-            <a href="#tmux">
-                tmux
+            <a href="#variegated plants">
+                variegated plants
             </a>
             <span>(1)</span>
         </li>
@@ -43,12 +50,24 @@
 
 </ul>
 
-<h2 id="archlinux">archlinux</h2>
+<h2 id="houseplants">houseplants</h2>
 <ul class="post-list">
     
   
    <li>
-   <a href="/blog/arch-linux-tmux/">Arch Linux + Tmux = CLI++</a>
+   <a href="/home%20garden/houseplants/">Houseplants</a>
+   </li>
+  
+  
+  
+ </ul>
+
+<h2 id="hydroponics">hydroponics</h2>
+<ul class="post-list">
+    
+  
+   <li>
+   <a href="/home%20garden/houseplants/">Houseplants</a>
    </li>
   
   
@@ -61,10 +80,6 @@
   
    <li>
    <a href="/blog/redimensionar-particoes-lvm/">Redimensionar partições LVM</a>
-   </li>
-  
-   <li>
-   <a href="/blog/arch-linux-tmux/">Arch Linux + Tmux = CLI++</a>
    </li>
   
   
@@ -83,24 +98,24 @@
   
  </ul>
 
-<h2 id="screenshot">screenshot</h2>
+<h2 id="monstera">monstera</h2>
 <ul class="post-list">
     
   
    <li>
-   <a href="/blog/arch-linux-tmux/">Arch Linux + Tmux = CLI++</a>
+   <a href="/home%20garden/houseplants/">Houseplants</a>
    </li>
   
   
   
  </ul>
 
-<h2 id="tmux">tmux</h2>
+<h2 id="variegated plants">variegated plants</h2>
 <ul class="post-list">
     
   
    <li>
-   <a href="/blog/arch-linux-tmux/">Arch Linux + Tmux = CLI++</a>
+   <a href="/home%20garden/houseplants/">Houseplants</a>
    </li>
   
   
