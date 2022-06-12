@@ -2,7 +2,7 @@
 layout: post
 title:	"Houseplants"
 date:	2021-07-18 12:00:00
-categories:
+categories:-
     - home garden
 tags:
     - hydroponics
