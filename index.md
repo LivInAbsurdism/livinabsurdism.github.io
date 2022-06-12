@@ -10,10 +10,10 @@ I currently live in the San Juan mountains with my partner, our two dogs, and 11
 
 ### What I'm Currently Learning
 
-- [x] Data-intense application design
-- [x] Android Development
-- [x] Distributed systems architecture, performance, & monitoring
-- [x] Zen
+-  Data-intense application design
+-  Android Development
+-  Distributed systems architecture, performance, & monitoring
+-  Zen
 
 ### My Current Side Projects
 
