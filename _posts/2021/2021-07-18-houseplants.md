@@ -1,7 +1,7 @@
 ---
 layout: post
 title:	"Houseplants"
-date:	2021-07-18
+date:	2021-07-18 12:00:00
 categories:
     - home garden
 tags:
