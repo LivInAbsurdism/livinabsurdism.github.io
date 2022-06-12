@@ -10,13 +10,13 @@ I currently live in the San Juan mountains with my partner, our two dogs, and 11
 
 ### What I'm Currently Learning
 
-- [x] Java
+- [x] Data-intense application design
 - [x] Android Development
-- [x] Neural Networks
-- [x] R
+- [x] Distributed systems architecture, performance, & monitoring
+- [x] Zen
 
-### My Current Projects
+### My Current Side Projects
 
-- [x] Simple JS neural network
-- [x] Automation for my hydroponics garden
-- [x] Hardware for the same garden
+- [x] Reading more.
+- [x] Automation for my hydroponics garden (w / hardware)
+- [x] Carving out time to make contributions to some open-source projects (Exercism, RubyForGood, Magisk)
