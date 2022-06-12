@@ -3,7 +3,7 @@ layout: content
 title: Hi, I'm Liv.
 ---
 
-**I'm a backend engineer who loves plants, automation, and learning.**
+**I'm a backend engineer who loves plants, novel solutions, reading, and learning.**
 
 I currently live in the San Juan mountains with my partner, our two dogs, and 115 plants.
 
