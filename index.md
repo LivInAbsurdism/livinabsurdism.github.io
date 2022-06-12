@@ -30,4 +30,4 @@ I currently live in the San Juan mountains with my partner, our two dogs, and 11
 -  The Pragmatic Programmer, Andy Hunt & Dave Thomas
 -  Grokking Algorithms, Aditya Bhargava
 -  Stolen Focus, Johann Hari
--  Zen and The Art of Saving the Planet, Tich Nhat Hanh
+-  Zen and The Art of Saving the Planet, Thich Nhat Hanh
