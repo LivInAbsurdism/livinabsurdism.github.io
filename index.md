@@ -23,4 +23,5 @@ I currently live in the San Juan mountains with my partner, our two dogs, and 11
 -  Automation for my hydroponics garden (w / hardware)
 -  Building a long-distance data network using ham radio
 -  Using bio-sonification to take MIDI samples of various fungus in the San Juan National Forest
+-  Building a machine from scrap parts and setting up an alternative OS (written in Forth) on the machine with the intent of being able to accomplish basic computing from "scratch". 
 -  Carving out time to make contributions to some open-source projects (Exercism, RubyForGood, Magisk)
