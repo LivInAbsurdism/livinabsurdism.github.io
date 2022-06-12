@@ -13,10 +13,14 @@ I currently live in the San Juan mountains with my partner, our two dogs, and 11
 -  Data-intense application design
 -  Android Development
 -  Distributed systems architecture, performance, & monitoring
+-  Pragammatic and intentional programming and design
+-  Developing intense attention-to-detail
 -  Zen
 
 ### My Current Side Projects
 
-- [x] Reading more.
-- [x] Automation for my hydroponics garden (w / hardware)
-- [x] Carving out time to make contributions to some open-source projects (Exercism, RubyForGood, Magisk)
+-  Reading more.
+-  Automation for my hydroponics garden (w / hardware)
+-  Building a long-distance data network using ham radio
+-  Using bio-sonification to take MIDI samples of various fungus in the San Juan National Forest
+-  Carving out time to make contributions to some open-source projects (Exercism, RubyForGood, Magisk)
