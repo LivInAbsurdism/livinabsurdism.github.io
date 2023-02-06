@@ -5,7 +5,7 @@ title: Hi, I'm Liv.
 
 **I'm a backend engineer who loves plants, novel solutions, reading, and learning.**
 
-I currently live in the San Juan Mountain where I spend my time working remotely, training hard, and working towards a more ecologically-minded existence. 
+I currently live in the mountains where I spend my time working remotely, training hard, and working towards a more ecologically-minded existence. 
 
 
 #### My Current Side Projects
