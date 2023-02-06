@@ -3,7 +3,7 @@ layout: post
 title:	"Houseplants, Food Production, & Eliminating Toil"
 date: 2023-02-05 12:34:27 +0100
 categories:
-    - home_garden
+    - automation
 tags:
     - hydroponics
     - houseplants
