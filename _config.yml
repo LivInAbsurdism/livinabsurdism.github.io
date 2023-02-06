@@ -3,7 +3,6 @@ title: "absurd revolt"
 bye_message: "Thx for looking!"
 baseurl: ""
 url: "http://livinabsurdism.github.io"
-disqus: gjuniioor
 
 # Header settings
 nick: "livinabsurdism"
@@ -15,3 +14,4 @@ fingerprint_key: "ENTER GPG KEY HERE"
 # Build settings
 markdown: kramdown
 permalink: /:categories/:title/
+future: true
