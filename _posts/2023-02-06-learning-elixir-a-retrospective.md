@@ -1,6 +1,6 @@
 ---
 layout: post
-title:	"Painful lessons"
+title:	"Brief but painful lessons"
 date: 2023-02-06 12:34:27 +0100
 categories:
     - learning_elixir
