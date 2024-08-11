@@ -21,7 +21,7 @@ The first will be a re-building of my garden towers with a focus on automation. 
 From there, I'm going to try and create a custom automation for both of my towers. I'd love to be able to monitor pH, water level, lights, etc. So we will see how this goes. 
 
 My second project will be an electric modification and automation for my Gaggia Classic Pro. 
-I love espresso and have wanted to get a nice machine for quite some time, however, I am limited by cost. I acquired a machine second hand and then happened upon a pre-existing project. The ("Gaggiauno")[https://gaggiuino.github.io/#/]. 
+I love espresso and have wanted to get a nice machine for quite some time, however, I am limited by cost. I acquired a machine second hand and then happened upon a pre-existing project. The ["Gaggiauno"](https://gaggiuino.github.io/#/). 
 
 I've ordered the parts and will be starting with this project. It's a bit intimdiating as it will involve altering the electrical wiring of my machine, but I think I'm ready to tackle the challenge. 
 
