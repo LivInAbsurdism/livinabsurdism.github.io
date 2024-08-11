@@ -12,6 +12,7 @@ I currently live in the mountains where I spend my time working remotely, traini
 
 -  Reading more.
 -  Automation for my hydroponics garden (w / hardware)
+-  Re-wiring my Gaggia Classic Pro and setting it up with a microcontroller to help pull perfect shots every time. 
 -  Building a long-distance data network using ham radio
 -  Using bio-sonification to take MIDI samples of various fungus in the San Juan National Forest
 -  Building a machine from scrap parts and setting up an alternative OS (written in Forth) on the machine with the intent of being able to accomplish basic computing from "scratch". 
