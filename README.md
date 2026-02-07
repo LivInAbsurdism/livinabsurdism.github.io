@@ -1,56 +1,119 @@
-# Clyell
+# livinabsurdism.github.io
 
-[https://gjuniioor.github.io/clyell](https://gjuniioor.github.io/clyell)
+Personal blog and portfolio site for Liv Cella, a backend engineer passionate about technology, open source, and sustainable living.
 
-### About
+🌐 **Live Site:** [https://livinabsurdism.github.io](https://livinabsurdism.github.io)
 
-It's just one more [jekyll](https://github.com/jekyll/jekyll) theme. Maybe it's has some appearance like a linux console. :)
+## About
 
-[Bootstrap](http://getbootstrap.com/) was added to turn responsible. Thanks, [@magnunleno](https://github.com/magnunleno).
+This is a Jekyll-based static site hosted on GitHub Pages, featuring technical blog posts, project updates, and personal insights on programming, Linux systems, and various side projects.
 
-### Features
+## Tech Stack
 
-- [x] Google analytics
-- [x] Disqus
-- [x] Responsible
-- [x] Highlights for code
+- **Static Site Generator:** [Jekyll](https://jekyllrb.com/)
+- **CSS Framework:** [Bootstrap 3.3.6](http://getbootstrap.com/)
+- **Markdown Processor:** Kramdown
+- **Hosting:** GitHub Pages
 
-### Characteristics
+## Features
 
-- [x] Customized (and nice :P) 404 page
-- [x] Simple
-- [x] Friendly to read
+- ✨ Clean, minimalist design with a terminal-inspired aesthetic
+- 📝 Blog posts with syntax highlighting for code
+- 🏷️ Category and tag organization
+- 📱 Fully responsive layout
+- 🎯 Custom 404 page
+- 📊 Analytics support (optional)
+- 💬 Disqus comments support (optional)
+- 📡 RSS feed
 
-### Screenshots
+## Project Structure
 
-![Screenshot]({{ site.baseurl }}images/screenshot/01.png)
+```
+.
+├── _config.yml          # Site configuration
+├── _includes/           # Reusable HTML components
+├── _layouts/            # Page templates
+├── _posts/              # Blog posts organized by year
+│   └── 2017/
+├── css/                 # Stylesheets and Bootstrap
+├── images/              # Images and media assets
+├── blog.md              # Blog listing page
+├── category.md          # Category page
+├── index.md             # Homepage
+└── feed.xml             # RSS feed
+```
 
-![Screenshot]({{ site.baseurl }}images/screenshot/02.png)
+## Local Development
 
-### Config file example
+### Prerequisites
 
-~~~ yml
-# Site settings
-title: "gjuniioor"
-bye_message: "Thx for looking!"
-baseurl: "/clyell/"
-url: "https://gjuniioor.github.io"
-disqus: gjuniioor
+- Ruby (2.5 or higher)
+- Bundler
+- Jekyll
 
-# Header settings
-nick: "gjuniioor"
-mail:
-    domain: "protonmail"
-    ext: "ch"
-source_code:
-    server: "github.com"
-    nick: "gjuniioor"
-blog:
-    server: "wordpress.com"
-    nick: "gjuniioor"
-fingerprint_key: "5E12 9ABC C2A9 564B C048  2DF9 D327 0D10 BC71 CF75"
+### Setup
 
-# Build settings
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/livinabsurdism/livinabsurdism.github.io.git
+   cd livinabsurdism.github.io
+   ```
+
+2. Install dependencies:
+   ```bash
+   bundle install
+   ```
+
+3. Run the local server:
+   ```bash
+   bundle exec jekyll serve
+   ```
+
+4. Visit `http://localhost:4000` in your browser
+
+### Creating New Posts
+
+Posts are stored in `_posts/` organized by year. Create a new post using the naming convention:
+
+```
+_posts/YYYY/YYYY-MM-DD-title-of-post.md
+```
+
+Post front matter example:
+```yaml
+---
+layout: post
+title: "Your Post Title"
+date: YYYY-MM-DD HH:MM:SS
+categories:
+    - blog
+tags:
+    - tag1
+    - tag2
+---
+```
+
+## Configuration
+
+Key settings in `_config.yml`:
+
+```yaml
+title: "absurd revolt"
+url: "http://livinabsurdism.github.io"
+nick: "livinabsurdism"
 markdown: kramdown
 permalink: /:categories/:title/
-~~~
+```
+
+## Deployment
+
+The site automatically deploys to GitHub Pages when changes are pushed to the main branch. No additional build steps required.
+
+## Credits
+
+- Theme inspired by [Clyell](https://github.com/gjuniioor/clyell) by [@gjuniioor](https://github.com/gjuniioor)
+- Responsive design contributions by [@magnunleno](https://github.com/magnunleno)
+
+## License
+
+See [LICENSE](LICENSE) file for details.
